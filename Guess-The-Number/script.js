@@ -16,7 +16,7 @@ document.querySelector('.check').addEventListener('click', function () {
 
   // if guess is blank
   if (!guess) {
-    displayMessage('Input a Number in CheckBox!');
+    displayMessage('Input a Number in Box!');
 
     // if guess is correct
   } else if (guess === secretNumber) {
